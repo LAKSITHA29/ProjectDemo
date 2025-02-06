@@ -5,6 +5,6 @@ public class ass2{
 		}
 		String Name=args[0];
 		int Age=Integer.parseInt(args[1]);
-		System.out.println("Hello "+name+ "You are "+age+ "old");
+		System.out.println("Hello "+Name+ "You are "+Age+ "old");
 		}
 	}
