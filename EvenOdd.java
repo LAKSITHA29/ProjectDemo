@@ -6,7 +6,7 @@ public class EvenOdd{
     try{
       File file=new File("input.txt");
       int even=0,odd=0;
-       Scanner sc=new Scanner(System.in);
+       Scanner sc=new Scanner(file);
 		int n=sc.nextInt();
 		int arr[]=new int[n];
 		for(int i=0;i<n;i++) {
@@ -21,8 +21,9 @@ public class EvenOdd{
     }
       System.out.println("odd:"+odd+"\neven:"+even);
       sc.close();
-    }catch(FileNotFoundException e){
-       System.out.println("Error:File not found.");
+    }
+    catch(FileNotFoundException e){
+     System.out.println("Error:File not found.");
       e.printStackTrace();
     }
   }
