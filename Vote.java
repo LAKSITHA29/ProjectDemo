@@ -2,7 +2,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 public class Vote{
-    public static void main(Stri)ng[] args){
+    public static void main(String[] args){
         try{
         File file=new file("input.txt);
         Scanner sc=new Scanner(file);
