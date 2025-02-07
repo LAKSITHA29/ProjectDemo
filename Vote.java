@@ -16,7 +16,7 @@ public class Vote{
     }
   catch (FileNotFoundException e){
     System.out.println("Error:File not found");
-    e.printstackTrace();
+    e.printStackTrace();
   }
 }
 }
