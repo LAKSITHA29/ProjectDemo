@@ -8,9 +8,9 @@ public class Vote{
         Scanner sc=new Scanner(file);
         int age=sc.nextInt();
         if (age>=18) {
-           return "Eligible";
+           System.out.println("Eligible");
         }else {
-           return "Not Eligible";
+           System.out.println("Not Eligible");
         }
     }
   catch (FileNotFoundException e){
