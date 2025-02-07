@@ -12,10 +12,11 @@ public class Vote{
         }else {
            System.out.println("Not Eligible");
         }
+            sc.close();
     }
   catch (FileNotFoundException e){
     System.out.println("Error:File not found");
-    e.printstacktrace();
+    e.printstackTrace();
   }
 }
 }
